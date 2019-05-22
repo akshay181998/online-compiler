@@ -1,0 +1,53 @@
+body{
+    overflow:hidden;
+}
+.navbar {
+    border-radius:0rem;
+}
+.navbar-inverse{
+    margin:0px;
+}
+#page-wrapper{
+    margin:0px; 
+    width:80%;
+    margin:auto;
+    height:700px;
+    margin-top:10px;
+}
+.right-part .code-part {
+    max-height:550px;
+    min-height:550px;
+    border:1px solid #333;
+    border-radius:0px;
+    min-width:100%;
+    margin:auto;
+    margin-bottom:30px;
+}
+
+
+footer{
+    background:#333;
+    color:white;
+    min-height:80px;
+}
+footer p{
+    padding-top:30px;
+    font-size:1.3em;
+}
+
+.options button{
+    margin-left:50px;
+    margin-bottom:20px;
+}
+.options textarea{
+    border:1px solid #333;
+    min-height:35px;
+    max-height:35px;
+    min-width:200px;
+}
+
+@media only screen and (max-width: 900px) {
+    body{
+        overflow:scroll;
+    }
+}
